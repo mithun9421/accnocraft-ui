@@ -1,0 +1,84 @@
+{
+  "name": "annocraft-ui",
+  "version": "1.0.0",
+  "description": "A civilization-grade, AI-native design system for the modern web",
+  "main": "index.ts",
+  "types": "index.ts",
+  "bin": {
+    "annocraft-ui": "./cli/index.ts"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "cli": "ts-node cli/index.ts",
+    "audit": "ts-node cli/index.ts audit",
+    "explain": "ts-node cli/index.ts explain",
+    "add": "ts-node cli/index.ts add"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "design-system",
+    "ui",
+    "accessibility",
+    "a11y",
+    "semantic",
+    "ai-native",
+    "mcp",
+    "model-context-protocol",
+    "tailwind",
+    "typescript"
+  ],
+  "author": "Annocraft UI Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annocraft-ui/annocraft-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/annocraft-ui/annocraft-ui/issues"
+  },
+  "homepage": "https://annocraft-ui.dev",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-checkbox": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jest": "^29.7.0",
+    "jest-axe": "^8.0.0",
+    "prettier": "^3.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "components",
+    "design",
+    "mcp",
+    "cli",
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
