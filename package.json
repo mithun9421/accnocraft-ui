@@ -5,7 +5,7 @@
   "main": "index.ts",
   "types": "index.ts",
   "bin": {
-    "annocraft-ui": "./cli/index.ts"
+    "annocraft-ui": "cli/index.ts"
   },
   "scripts": {
     "dev": "tsc --watch",
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/annocraft-ui/annocraft-ui.git"
+    "url": "git+https://github.com/annocraft-ui/annocraft-ui.git"
   },
   "bugs": {
     "url": "https://github.com/annocraft-ui/annocraft-ui/issues"

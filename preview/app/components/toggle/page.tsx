@@ -225,7 +225,7 @@ return (
                 </tr>
                 <tr className="border-b border-gray-100 dark:border-gray-900">
                   <td className="py-2 pr-4 font-mono text-xs">onPressedChange</td>
-                  <td className="py-2 pr-4 font-mono text-xs">(pressed: boolean) => void</td>
+                  <td className="py-2 pr-4 font-mono text-xs">{"(pressed: boolean) => void"}</td>
                   <td className="py-2 pr-4">-</td>
                   <td className="py-2">Callback when state changes</td>
                 </tr>

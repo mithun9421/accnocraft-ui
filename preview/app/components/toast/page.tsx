@@ -286,7 +286,7 @@ export default function App() {
                 </tr>
                 <tr>
                   <td className="py-2 pr-4 font-mono text-xs">onClose</td>
-                  <td className="py-2 pr-4 font-mono text-xs">() => void</td>
+                  <td className="py-2 pr-4 font-mono text-xs">{"() => void"}</td>
                   <td className="py-2 pr-4">-</td>
                   <td className="py-2">Close callback</td>
                 </tr>

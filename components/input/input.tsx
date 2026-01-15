@@ -8,7 +8,7 @@ import * as React from "react";
 import { Size, State } from "../../design/variants";
 import { inputStyles } from "./input.styles";
 
-export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+export interface InputProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
   /**
    * Visual size
    */

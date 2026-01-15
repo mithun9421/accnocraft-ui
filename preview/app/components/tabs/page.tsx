@@ -213,7 +213,7 @@ export default function App() {
                 <tr className="border-b border-gray-100 dark:border-gray-900">
                   <td className="py-2 pr-4 font-mono text-xs">Tabs</td>
                   <td className="py-2 pr-4 font-mono text-xs">onValueChange</td>
-                  <td className="py-2 pr-4 font-mono text-xs">(value: string) => void</td>
+                  <td className="py-2 pr-4 font-mono text-xs">{"(value: string) => void"}</td>
                   <td className="py-2">Callback when tab changes</td>
                 </tr>
                 <tr className="border-b border-gray-100 dark:border-gray-900">
