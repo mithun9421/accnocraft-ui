@@ -5,9 +5,10 @@
   "description": "Live component preview for Annocraft UI",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cd .. && npm install && cd preview && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "cd .. && npm install"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
